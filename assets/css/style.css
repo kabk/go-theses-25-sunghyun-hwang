@@ -157,11 +157,18 @@ header {
   background-color: white;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* main section:last-of-type {
+  margin-right: 1vw;
+} */
 
 .fixedCircle {
   position: fixed;  
   top: -1vh;          
-  left: 1.5vw;  
+  left: 4.5vw;  
   z-index: 3;
 }
 
@@ -183,7 +190,7 @@ header {
 .cross-line {
   position: fixed;  
   top: -1vh;          
-  left: 1.5vw;  
+  left: 4.5vw;  
   z-index: 3;
 }
 
@@ -206,10 +213,6 @@ section {
   z-index: 0;
   opacity: 0;
   animation: fadeInUp 1.5s ease-out forwards;
-}
-
-main section:last-of-type {
-  margin-right: 4vw;
 }
 
 @keyframes fadeInUp {
