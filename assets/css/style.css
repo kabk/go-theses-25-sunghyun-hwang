@@ -122,7 +122,10 @@ sup {
 /* page structure */
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 /* navigation */
 
 nav {}
@@ -147,7 +150,11 @@ div.page-wrapper {
 
 header {
   position: fixed;
+<<<<<<< HEAD
   z-index: 0;
+=======
+  z-index: 1;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
   top: 0;
   left: 0;
   width: 100%;
@@ -161,7 +168,11 @@ header {
 .fixedCircle {
   position: fixed;  
   top: -1vh;          
+<<<<<<< HEAD
   left: 1.5vw;  
+=======
+  left: 4.5vw;  
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
   z-index: 3;
 }
 
@@ -183,7 +194,11 @@ header {
 .cross-line {
   position: fixed;  
   top: -1vh;          
+<<<<<<< HEAD
   left: 1.5vw;  
+=======
+  left: 4.5vw;  
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
   z-index: 3;
 }
 
@@ -203,15 +218,22 @@ section {
   border-bottom: 1px solid black;
   background-color: white;
   box-sizing: border-box;
+<<<<<<< HEAD
   z-index: 0;
+=======
+  z-index: 2;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
   opacity: 0;
   animation: fadeInUp 1.5s ease-out forwards;
 }
 
+<<<<<<< HEAD
 main section:last-of-type {
   margin-right: 4vw;
 }
 
+=======
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -473,7 +495,11 @@ section.info {
 
 .sub-info-17 {
   width: 17vw;
+<<<<<<< HEAD
   height: 45vw;
+=======
+  height: 51.2vw;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 }
 
 
@@ -506,7 +532,11 @@ section.body-text {
 
 .bodycolumn h1 {
   text-align: center;
+<<<<<<< HEAD
   padding: 17vh 2vw 26.5vh 0vw;
+=======
+  padding: 17vh 2vw 26.5vh 0;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
   font-size: 1.5rem;
 }
 
@@ -724,12 +754,20 @@ section.body-text p {
 }
 
 .bodycolumn.sub-body-text-16 h2 {
+<<<<<<< HEAD
   padding-top: 30vh;
+=======
+  padding-top: 40vh;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 }
 
 .bodycolumn.sub-body-text-16 .bibliography {
   padding-left: 3vw;
+<<<<<<< HEAD
   padding-bottom: 7.5vh;
+=======
+  padding-bottom: 10vh;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 }
 
 .bodycolumn.sub-body-text-16 .bibliography p {
@@ -739,6 +777,7 @@ section.body-text p {
 
 
 section.image-roll {
+<<<<<<< HEAD
   width: 18vw;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -795,12 +834,16 @@ section.image-roll .num16 img {
   height: 88%; /* div의 높이에 맞춰 이미지의 높이를 100%로 설정 */
   object-fit: cover; /* 이미지가 div를 꽉 채우도록 하며, 잘리게 설정 */
   object-position: center; /* 이미지를 div의 중앙에 정렬 */
+=======
+  width: 17vw;
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 }
 
 img {
   max-width: 100%;
 }
 
+<<<<<<< HEAD
 section.image-roll .num17 {
   padding-top: 9vw;
 }
@@ -842,6 +885,8 @@ section.image-roll .num33 {
 }
 
 
+=======
+>>>>>>> ad8a0460697a34645d82e79ab6711b5bfc23f452
 
 /* UTILITY CLASSES */
 
