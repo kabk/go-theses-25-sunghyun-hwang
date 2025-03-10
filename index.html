@@ -44,10 +44,10 @@
 	<div class="top-bar">
 		<div class="top-bar-menu sub-top-bar-1">
 			<div class="yellow-box">
-				<a href="top-menu"><p>menu</p></a>
+				<a href="notdecided"><p>menu</p></a>
 			</div>
 			<div class="yellow-box">
-				<a href="top-contents"><p>contents</p></a>
+				<a href="#maintitle"><p>contents</p></a>
 			</div>
 		</div>
 		<div class="top-bar-menu sub-top-bar-2">
@@ -56,8 +56,8 @@
 		<div class="sub-top-bar-3">
 			<img src="assets/images/bar.svg" alt="bar">
 			<img src="assets/images/cc.svg" alt="cc">
-			<div class="yellow-box">
-				<a href="top-bar-menu top-about"><p>about</p></a>
+			<div class="yellow-box" id="thisabout">
+				<a href="#finalend"><p>about</p></a>
 			</div>
 		</div>
 	</div>
@@ -67,8 +67,9 @@
 	</header>
 
 	<div id="loading-overlay">
-		<p>Subtitles & Captions: Working Title
-		<br>Sung Hyun Hwang</p>
+		<p class="loading-text">[A quiet exhale, eyes closing as thoughts settle]</p>
+		<p class="loading-text" style="display: none;">I'm like a subtitle or something. Don't you think so?</p>
+		<p class="loading-text" style="display: none;">Most Ordinary Existence, waiting to be interpreted.</p>
 	</div>
 	<div class="page-wrapper">
 
@@ -227,7 +228,7 @@
 			</section>
 			<section class="body-text">
 				<div class="bodycolumn sub-body-text-1">
-					<h1>Subtitles & Captions:<br> Working Title</h1>
+					<h1 id="maintitle">Subtitles & Captions:<br> Working Title</h1>
 					<h2 id="abstract">00 Abstract</h2>
 					<p>
 						Subtitles are a form of visual language that originate from the gap between native and foreign languages. Subtitles overlay the main content - usually visual media - and serve as a secondary explanation of the content. As a form of typography, subtitles are also an interesting medium in which the rules of graphic design apply, such as visibility, legibility, and explicitness. 
@@ -278,7 +279,7 @@
 				  </div>
 				<div class="bodycolumn sub-body-text-8">
 					<h2 id="chapter-3">03 The Politics of Subtitling</h2>
-					<p>What's interesting is the close interaction between TikTok's captions and its machine learning algorithms. TikTok recently launched the ability to automatically live-caption users' content, giving them the opportunity to create more interesting algorithms and reach a wider audience. However, TikTok's data collection has been publicly questioned, and its developer, Byte Dance, is headquartered in China, so all content is subject to censorship by the Chinese government. But also outside of the scope of governmental censorship, issues that are politically sensitive and that cause users to be shadowbanned have come from different directions. IIt's not just China, censorship of politically sensitive topics is an open secret in the United States.  The United States is a country known for its freedom of expression, but if you create content with a pro-Palestinian stance on a platform like Meta, you will be heavily <a href="#footnote-4"><sup>[4]</sup>shadowbanned.</a></p>
+					<p>What's interesting is the close interaction between TikTok's captions and its machine learning algorithms. TikTok recently launched the ability to automatically live-caption users' content, giving them the opportunity to create more interesting algorithms and reach a wider audience. However, TikTok's data collection has been publicly questioned, and its developer, Byte Dance, is headquartered in China, so all content is subject to censorship by the Chinese government. But also outside of the scope of governmental censorship, issues that are politically sensitive and that cause users to be shadowbanned have come from different directions. It's not just China, censorship of politically sensitive topics is an open secret in the United States.  The United States is a country known for its freedom of expression, but if you create content with a pro-Palestinian stance on a platform like Meta, you will be heavily <a href="#footnote-4"><sup>[4]</sup>shadowbanned.</a></p>
 				</div>
 				<!-- <div class="bodycolumn sub-body-text-9">
 					<div class="figure-container">
@@ -332,18 +333,23 @@
 				<div class="bodycolumn sub-body-text-15">
 					<h2 id="conclusion">06 Conclusion</h2>
 					<p>In brief, subtitles are media that exist in context. Language, like subtitles, constitutes a context with time and space, and if it lacks any of these conditions, it means that your meaning has been lost. I think this is also the reason why our existence as expats is often decontextualised.</p>
-					<p>People often ask me a question as I am about to graduate: Do you want to continue living in the Netherlands after you graduate? Whenever I’m asked to answer this, I slowly sink down to the bottom of the screen as if I am the subtitle. I will never be part of the mainstream culture in the Netherlands. However, its is not particularly a sad thing. I just accept my fate as a outsider in the Netherlands. I and Dutch society live in symbiosis, sometimes in conflict while creating new contexts.  Then I finally answer the question: Yes, I think I can continue to live in the Netherlands.</p>
+					<p>People often ask me a question as I am about to graduate: Do you want to continue living in the Netherlands after you graduate? Whenever I’m asked to answer this, I slowly sink down to the bottom of the screen as if I am the subtitle. I will never be part of the mainstream culture in the Netherlands. However, its is not particularly a sad thing. I just accept my fate as a outsider in the Netherlands. I and Dutch society live in symbiosis, sometimes in conflict while creating new contexts.  Then I finally answer the question: <span class="important-italic">Yes, I think I can continue to live in the Netherlands.</span></p>
 				</div>
 				<div class="bodycolumn sub-body-text-16">
-					<h2 id="bib">Bibliography</h2>
+					<h2>Bibliography</h2>
 					<div class="bibliography">
 						<p>Zdenek, S., & Zdenek, S. (2015, December 18). Subtitles as visual art - Reading Sounds. Reading Sounds - The Ultimate</p>
 						<p>User’s Guide to Closed Captioning. https://readingsounds.net/subtitles-as-art/</p>
-						<p>The Take: Uncovering Meta's Censorship Policies on Palestine, Al Jazeera, October 24, 2024, https://www.aljazeera.com/podcasts/2024/10/24/the-take-uncovering-metas-censorship-policies-on-palestine.</p>
+						<p id="bib">The Take: Uncovering Meta's Censorship Policies on Palestine, Al Jazeera, October 24, 2024, https://www.aljazeera.com/podcasts/2024/10/24/the-take-uncovering-metas-censorship-policies-on-palestine.</p>
 						<p>Medri, M. M. &. M. (2024c, February 16). Silly Girl Theory: Scrolling the digital playgrounds. https://networkcultures.org/longform/2024/02/16/silly-girl-theory-scrolling-the-digital-playgrounds/</p>
 						<p>Warner, G. (2021, April 21). How to speak bad English. NPR. https://www.npr.org/2021/04/21/989477444/how-to-speak-bad-english</p>
 						<p>Hak, Theresa. Dictee. Berkeley, University Of California Press, 1982.</p>
 						Subtitle fonts: Choosing the right one. (n.d.). Md-subs. https://www.md-subs.com/blog/saa-subtitle-font
+					</div>
+				</div>
+				<div class="bodycolumn sub-body-text-16">
+					<div class="last-about">
+						<span id="finalend">Royal Academy of Art, The Hague – Graphic Design 2025, Graduation Thesis by Sung Hyun Hwang</span>
 					</div>
 				</div>
 			</section>
@@ -580,49 +586,46 @@
     <!-- 📌 page-wrapper 다음에 overlay 배치 -->
 
 	<div class="overlay" data-id="blacksubtitle">
-		<p>blacksubtitle</p>
+		<p>Four years here, and my English still isn't where I'd like it to be.</p>
 	</div>
+	<!-- <div class="overlay" data-id="chapter-1">
+		<p>[Chuckles softly] Yeah, the COVID days were really awful.</p>
+	</div> -->
 	<div class="overlay" data-id="barrier">
-		<p>barrier</p>
-	</div>
-	<div class="overlay" data-id="however">
-		<p>however</p>
-	</div>
-	<div class="overlay" data-id="chapter-1">
-		<p>The only way to do great work is to love what you do.</p>
-	</div>
-	<div class="overlay" data-id="chapter-3">
-		<p>It does not matter how slowly you go as long as you do not stop."</p>
+		<p>When I'm alone, my thoughts arise like drifting subtitles in my mind.</p>
 	</div>
 	<div class="overlay" data-id="inbetween">
-		<p>inbetweeeen</p>
+		<p>[Mouse wheel softly whirs]</p>
 	</div>
+	<div class="overlay" data-id="however">
+		<p>Brrt.. brrt.. brrrrrt....</p>
+	</div>
+	<!-- <div class="overlay" data-id="chapter-3">
+		<p>I am murmuring words that have lost their meaning.</p>
+	</div> -->
 	<div class="overlay" data-id="tiktoker">
-		<p>tiktok</p>
+		<p>We at least try—we strive to understand, to interpret one another.</p>
 	</div>
 	<div class="overlay" data-id="inthepod">
-		<p>inthepod</p>
+		<p>It is the word. It is the wound.<br>The wound in the word.</p>
 	</div>
 	<div class="overlay" data-id="chahak">
-		<p>chahak</p>
+		<p>I echo their words.</p>
 	</div>
 	<div class="overlay" data-id="mumble">
-		<p>mumble</p>
+		<p>I mimic their speech.</p>
 	</div>
 	<div class="overlay" data-id="bug">
-		<p>bug</p>
-	</div>
-	<div class="overlay" data-id="pensive">
-		<p>pensive</p>
-	</div>
-	<div class="overlay" data-id="chapter-4">
-		<p>i like bigmac burger</p>
+		<p>Microbes craft the finest choices in their quiet dance.</p>
 	</div>
 	<div class="overlay" data-id="chapter-5">
-		<p>Success is not final, failure is not fatal: it is the courage to continue</p>
+		<p>Be a light unto yourself.</p>
+	</div>
+	<div class="overlay" data-id="pensive">
+		<p>I sit in stillness, gazing into<br>the depths of myself."</p>
 	</div>
 	<div class="overlay" data-id="conclusion">
-		<p>the end</p>
+		<p>Have you found the thread of<br>your own story?</p>
 	</div>
 	<div class="overlay" data-id="bib">
 		<p></p>

@@ -225,9 +225,13 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
+#loading-overlay .loading-text {
+  display: none;
+}
+
 #loading-overlay p {
   position: absolute;
-  bottom: -5%;
+  bottom: -3%;
   width: 70%;
   text-align: center; /* ⬅ 텍스트 가로 중앙 정렬 */
   font-family: "Red Hat Display", sans-serif;
@@ -525,12 +529,12 @@ section.info {
 
 .sub-info-16 .sdh-wrapper:nth-of-type(1) {
   padding-top: 35vh;
-  padding-bottom: 8vh;
+  padding-bottom: 17.8vh;
 }
 
 .sub-info-17 {
   width: 17vw;
-  height: 45vw;
+  height: 102vh;
 }
 
 
@@ -806,6 +810,35 @@ section.body-text p {
   padding: 0 0 1vw 0;
 }
 
+.important-italic {
+  font-style: italic;
+}
+
+.bodycolumn.sub-body-text-16 {
+  width: 48vw;
+  padding: 10.2vh 0 3vh 0;
+  font-size: 0.8rem;
+  line-height: 1.09rem;
+}
+
+.bodycolumn.sub-body-text-16 .last-about{
+  padding-left: 2vw;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+.bodycolumn.sub-body-text-16 .last-about::before {
+  content: "";
+  width: 93%;  /* 선의 길이 */
+  height: 1px; /* 선의 두께 */
+  background-color: black; /* 선 색상 */
+  position: absolute;
+  top: -5px; /* span 바로 위에 배치 */
+  left: 1.5vw;
+}
+
+
 
 
 section.image-roll {
@@ -1011,6 +1044,26 @@ img {
 
   .bodycolumn.sub-body-text-1 h1 br {
     display: block;
+  }
+
+  .overlay {
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+  } 
+  
+  .overlay p {
+    line-height: 2.9rem;
+  }
+
+  #loading-overlay p {
+    bottom: 10%;
+    width: 90vw;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
   }
 
   * {
