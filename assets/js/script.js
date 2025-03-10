@@ -49,12 +49,12 @@ docReady(function () {
 
           setTimeout(() => {
               if (index === loadingTexts.length - 1) {
-                  loadingTexts[index].style.transition = "opacity 3.5s ease-out";
+                  loadingTexts[index].style.transition = "opacity 3s ease-out";
                   loadingTexts[index].style.opacity = "0";
 
                   setTimeout(() => {
                       overlay.style.display = "none";
-                  }, 4000);
+                  }, 3500);
               } else {
                   showLoadingText(index + 1);
               }
@@ -64,7 +64,7 @@ docReady(function () {
 
   setTimeout(() => {
       showLoadingText();
-  }, 800);
+  }, 1200);
 
   // 로딩 오버레이 효과 및 top-bar, page-wrapper 표시
   setTimeout(() => {
@@ -86,7 +86,7 @@ docReady(function () {
           topBar.style.opacity = "1";
           pageWrapper.style.opacity = "1";
       }, 10);
-  }, 15900);
+  }, 15000);
 
   // 특정 요소가 화면 중앙에 위치할 때 `.overlay` 표시
   function checkScroll() {
