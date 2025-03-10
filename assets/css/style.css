@@ -155,7 +155,7 @@ body {
   z-index: 10000; /* top-bar보다 낮은 z-index */
   opacity: 0; /* 처음에는 보이지 않음 */
   overflow-y: auto; /* 세로 스크롤 가능하도록 */
-  transition: opacity 1s ease-in-out; /* 부드러운 전환 효과 */
+  transition: opacity 3s ease-in-out; /* 부드러운 전환 효과 */
 }
 
 .top-bar {
@@ -168,7 +168,7 @@ body {
   width: 100vw;
   z-index: 10001; /* page-wrapper보다 높은 z-index */
   opacity: 0; /* 처음에는 보이지 않음 */
-  transition: opacity 1s ease-in-out; /* 부드러운 전환 효과 */
+  transition: opacity 3s ease-in-out; /* 부드러운 전환 효과 */
 }
 
 .top-bar-menu {
