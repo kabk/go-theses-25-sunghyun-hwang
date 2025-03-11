@@ -54,11 +54,11 @@ docReady(function () {
 
                   setTimeout(() => {
                       overlay.style.display = "none";
-                  }, 3500);
+                  }, 3200);
               } else {
                   showLoadingText(index + 1);
               }
-          }, 4000);
+          }, 2700);
       }
   }
 
@@ -86,7 +86,7 @@ docReady(function () {
           topBar.style.opacity = "1";
           pageWrapper.style.opacity = "1";
       }, 10);
-  }, 15000);
+  }, 9000);
 
   // 특정 요소가 화면 중앙에 위치할 때 `.overlay` 표시
   function checkScroll() {
